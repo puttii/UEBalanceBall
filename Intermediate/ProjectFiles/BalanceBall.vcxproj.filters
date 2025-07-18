@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\BalanceBall.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BalanceBall.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\BalanceBallEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\BalanceBall">
+      <UniqueIdentifier>{2A07E517-EE6A-3C2F-AEA7-447215198D04}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\BalanceBall\BalanceBall.Build.cs">
+      <Filter>Source\BalanceBall</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\BalanceBall\BalanceBall.cpp">
+      <Filter>Source\BalanceBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\BalanceBall.h">
+      <Filter>Source\BalanceBall</Filter>
+    </ClCompile>
+    <Filter Include="Source\BalanceBall\Private">
+      <UniqueIdentifier>{BF6FF086-386A-3BA4-A857-B8A41AD15F46}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BalanceBall\Private\DieSphere.cpp">
+      <Filter>Source\BalanceBall\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\Private\EndLocation.cpp">
+      <Filter>Source\BalanceBall\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\Private\HitBoxBase.cpp">
+      <Filter>Source\BalanceBall\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\Private\SaveLocation.cpp">
+      <Filter>Source\BalanceBall\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\Private\SphereBase.cpp">
+      <Filter>Source\BalanceBall\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\BalanceBall\Private\GameMode">
+      <UniqueIdentifier>{C1E43861-60BD-3B63-B395-4B2D9448A760}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BalanceBall\Private\GameMode\BalanceBallGameMode.cpp">
+      <Filter>Source\BalanceBall\Private\GameMode</Filter>
+    </ClCompile>
+    <Filter Include="Source\BalanceBall\Public">
+      <UniqueIdentifier>{F4BA74C6-9D61-38AE-9334-0D91C1549A42}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BalanceBall\Public\DieSphere.h">
+      <Filter>Source\BalanceBall\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\Public\EndLocation.h">
+      <Filter>Source\BalanceBall\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\Public\HitBoxBase.h">
+      <Filter>Source\BalanceBall\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\Public\SaveLocation.h">
+      <Filter>Source\BalanceBall\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\BalanceBall\Public\SphereBase.h">
+      <Filter>Source\BalanceBall\Public</Filter>
+    </ClCompile>
+    <Filter Include="Source\BalanceBall\Public\GameMode">
+      <UniqueIdentifier>{40610BF2-3DD6-357E-9756-1862A895BD79}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\BalanceBall\Public\GameMode\BalanceBallGameMode.h">
+      <Filter>Source\BalanceBall\Public\GameMode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

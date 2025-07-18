@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Unreal Projects\\BalanceBall\\Source\\BalanceBall\\BalanceBall.Build.cs",
+		"D:\\Unreal Projects\\BalanceBall\\Source\\BalanceBall.Target.cs",
+		"D:\\Unreal Projects\\BalanceBall\\Source\\BalanceBallEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.4"
+}
